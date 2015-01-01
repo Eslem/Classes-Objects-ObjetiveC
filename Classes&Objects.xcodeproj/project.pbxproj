@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5D747E5A1A550D7D00A61EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D747E591A550D7D00A61EFD /* main.m */; };
+		5D747E631A550DC600A61EFD /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D747E621A550DC600A61EFD /* Box.m */; };
+		5D747E661A55146A00A61EFD /* BoxExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D747E651A55146A00A61EFD /* BoxExtended.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		5D747E561A550D7D00A61EFD /* Classes&Objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes&Objects"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D747E591A550D7D00A61EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D747E611A550DC600A61EFD /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		5D747E621A550DC600A61EFD /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		5D747E641A55146A00A61EFD /* BoxExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxExtended.h; sourceTree = "<group>"; };
+		5D747E651A55146A00A61EFD /* BoxExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxExtended.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,21 @@
 		5D747E581A550D7D00A61EFD /* Classes&Objects */ = {
 			isa = PBXGroup;
 			children = (
+				5D747E601A550D9F00A61EFD /* Clases */,
 				5D747E591A550D7D00A61EFD /* main.m */,
 			);
 			path = "Classes&Objects";
+			sourceTree = "<group>";
+		};
+		5D747E601A550D9F00A61EFD /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				5D747E611A550DC600A61EFD /* Box.h */,
+				5D747E621A550DC600A61EFD /* Box.m */,
+				5D747E641A55146A00A61EFD /* BoxExtended.h */,
+				5D747E651A55146A00A61EFD /* BoxExtended.m */,
+			);
+			name = Clases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D747E5A1A550D7D00A61EFD /* main.m in Sources */,
+				5D747E631A550DC600A61EFD /* Box.m in Sources */,
+				5D747E661A55146A00A61EFD /* BoxExtended.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
